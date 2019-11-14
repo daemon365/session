@@ -8,6 +8,7 @@ import (
 type MemorySession struct {
 	data   map[string]interface{}
 	id     string
+	flag bool
 	rwlock sync.RWMutex
 }
 
@@ -41,4 +42,12 @@ func (m *MemorySession) Del(key string) (err error) {
 
 func (m *MemorySession) Save() (err error) {
 	return
+}
+
+func (m *MemorySession) Id() string {
+	return m.id
+}
+
+func (m *MemorySession) IsModify() bool {
+	return m.flag
 }

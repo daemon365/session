@@ -97,3 +97,12 @@ func (r *RedisSession) Save() (err error) {
 	}
 	return
 }
+
+
+func (r *RedisSession) Id() string {
+	return r.sessionId
+}
+
+func (r *RedisSession) IsModify() bool {
+	return r.flag
+}

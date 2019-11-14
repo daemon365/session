@@ -22,3 +22,10 @@ func Init(provider string, addr string, options ...string) (err error) {
 	err = sessionMgr.Init(addr, options...)
 	return
 }
+
+func CreateSession() (session Structure.Session, err error){
+	return sessionMgr.CreateSession()
+}
+func Get(sessionId string) (session Structure.Session, err error){
+	return sessionMgr.Get(sessionId)
+}
