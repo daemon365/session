@@ -1,4 +1,4 @@
-package Structure
+package session
 
 type SessionMgr interface {
 	Init(addr string, options ...string) (err error)
