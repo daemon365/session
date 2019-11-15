@@ -1,4 +1,4 @@
-module session
+module github.com/ilyzz/session
 
 go 1.13
 
