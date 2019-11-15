@@ -2,7 +2,7 @@ package redis_session
 
 import (
 	"fmt"
-	"session/Structure"
+	"github.com/ilyzz/session/Structure"
 )
 
 var (

@@ -3,7 +3,7 @@ package redis_session
 import (
 	"encoding/json"
 	"github.com/garyburd/redigo/redis"
-	"session/errors"
+	"github.com/ilyzz/session/errors"
 	"sync"
 )
 

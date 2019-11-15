@@ -1,7 +1,7 @@
 package memory
 
 import (
-	"session/errors"
+	"github.com/ilyzz/session/errors"
 	"sync"
 )
 

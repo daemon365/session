@@ -3,8 +3,8 @@ package redis_session
 import (
 	"github.com/garyburd/redigo/redis"
 	uuid "github.com/satori/go.uuid"
-	"session/Structure"
-	"session/errors"
+	"github.com/ilyzz/session/Structure"
+	"github.com/ilyzz/session/errors"
 	"sync"
 	"time"
 )
