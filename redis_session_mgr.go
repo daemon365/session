@@ -67,8 +67,10 @@ func (r *RedisSessionMgr) CreateSession() (session Session, err error) {
 	r.rwlock.Lock()
 	defer r.rwlock.Unlock()
 
-	id := uuid.NewV4()
-
+	id, err := uuid.NewV4()
+	if err != nil {
+		return
+	}
 
 	sessionId := id.String()
 	session = NewRedisSession(sessionId, r.pool)
