@@ -1,4 +1,4 @@
-module github.com/ilyzz/session
+module github.com/zhaohaiyu1996/session
 
 go 1.13
 
