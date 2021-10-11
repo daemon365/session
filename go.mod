@@ -1,4 +1,4 @@
-module github.com/yuemoxi/session
+module github.com/seasrain/session
 
 go 1.13
 
