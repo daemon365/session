@@ -1,6 +1,6 @@
 ## Download
 
 ```
-go get github.com/zwhyb/session
+go get github.com/seasrain/session
 ```
 
