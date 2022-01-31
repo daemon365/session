@@ -1,4 +1,4 @@
-module github.com/seasrain/session
+module github.com/haiyux/session
 
 go 1.13
 

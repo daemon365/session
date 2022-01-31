@@ -1,6 +1,6 @@
 ## Download
 
-```
-go get github.com/seasrain/session
+```bash
+go get github.com/haiyux/session
 ```
 
